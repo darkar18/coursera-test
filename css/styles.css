@@ -1,0 +1,66 @@
+*{
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+h1{
+    text-align: center;
+    color:green;
+    margin: bottom 32px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.container{
+    display: inline-block;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    margin-top:10px;
+    color: yellow;
+    
+}
+.container .food{
+    width: 35%;
+    text-align: center;
+    float:right;
+    border: 2px solid black;
+    font-size:24px;
+    font-weight: bold;
+    font-family: cursive;
+    color:blue;
+}
+section{
+    background-color: green;
+    border: 2px solid black;
+    margin-top:12px;
+    margin-right:12px;
+    /* margin-left: 3px; */
+    float: left;
+    width: 32%}
+    
+#f1{
+    background-color:pink;
+}
+#f2{
+    background-color:lightgoldenrodyellow;
+}
+#f3{
+    background-color:cadetblue;
+}
+p{
+    clear: both;
+}
+@media (min-width:768px) and (max-width: 991px){
+    #id1,#id2{
+        width:49%;
+        margin: 1px;
+    }
+    #id3{
+        width:100%;
+    }
+}
+@media(max-width: 767px){
+    #id1,#id2,#id3{
+        width:98%;
+        margin:2px;
+    }
+}
